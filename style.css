@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name       TubeArchivist Red
+@version    20250503.15.21
+@namespace  https://userstyles.world/user/Matthus
+@author     Matthus
+==/UserStyle== */
+
+@-moz-document domain("yourtubearchivistinstance.com") {
+:root {
+  --main-bg: #eeeeee;
+  --highlight-bg: #e0d9d9;
+  --highlight-error: #990202;
+  --highlight-error-light: #c44343;
+  --highlight-bg-transparent: #00293baf;
+  --main-font: #00202f;
+  --accent-font-dark: #d60202;
+  --accent-font-light: #F00;
+  --img-filter: invert(50%) sepia(100%) saturate(29400%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  --img-filter-error: invert(16%) sepia(60%) saturate(3717%) hue-rotate(349deg) brightness(86%) contrast(120%);
+  --banner: url(https://github.com/MatthusKakttus/MatthusTubeArchivistTheme/blob/main/banner-tube-archivist-light.png?raw=true);
+  --logo: url(https://github.com/MatthusKakttus/MatthusTubeArchivistTheme/blob/main/logo-tube-archivist-light.png?raw=true)
+}
+
+.onbtn, .ofbtn {
+    display: none;
+}
+
+.toggleBox > input:checked[type="checkbox"]{
+    background-color: var(--accent-font-light);
+  border-color: var(--accent-font-light);
+}
+
+.toggleBox > input[type="checkbox"]{
+    background-color: var(--main-font);
+  border-color: var(--main-font);
+}
+}
