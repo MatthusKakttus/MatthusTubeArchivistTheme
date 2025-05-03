@@ -4,6 +4,6 @@ Custom Theme for Tube Archivist
 
 Steps to install :
 - Install Stylus extension
-- Get the css file inside this repo //TODO
+- Install the theme from userstyles.world : ![Link](https://userstyles.world/style/22181/tubearchivist-red)
 - Install the FaviconSwitcher Extension
 - Get the favicon (logo) from this repo
